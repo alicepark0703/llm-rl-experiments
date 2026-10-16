@@ -1,0 +1,47 @@
+
+# Conda / Virtual Environments
+.venv/
+venv/
+env/
+conda-env/
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment Variables / Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Model Checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Experiment Logs
+runs/
+wandb/
+tensorboard/
+logs/
+
+# Temporary Files
+*.log
+*.tmp
+.cache/
