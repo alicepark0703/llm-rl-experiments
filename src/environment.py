@@ -127,7 +127,7 @@ class MathEnvironment:
         elif action == 1:
             #calculator always produces the correct answer but with a cost
             prediction = self.answer
-            corect = True
+            correct = True
             cost = self.tool_cost
 
         else:
